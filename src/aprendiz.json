@@ -1,0 +1,30 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Cloro Aditivado",
+      "price":"R$129,99",
+      "store":"Lojas Americanas"
+    },
+    {
+      "id": 2,
+      "name": "Cloro Granulado",
+      "price":"R$70,00",
+      "store":"Casas Bahia"
+    },
+
+    {
+      "id": 3,
+      "name": "Cloro Granulado",
+      "price":"R$80,00",
+      "store":"Lojas Americanas"
+    },
+
+    {
+      "id": 4,
+      "name": "Cloro Aditivado",
+      "price":"R$100,00",
+      "store":"Casas Bahia"
+    }
+  ]
+}

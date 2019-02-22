@@ -6,6 +6,7 @@ class Login extends Component{
     render(){
         return(
             <Fragment>
+            <div className="fundoo">
             <form className="formulario">
             <input className="campo"
              type="password"
@@ -16,6 +17,7 @@ class Login extends Component{
             <Link to="/search">
             <button className="botao"><p>Login</p></button>
             </Link>
+            </div>
             </Fragment>
         )
     }
