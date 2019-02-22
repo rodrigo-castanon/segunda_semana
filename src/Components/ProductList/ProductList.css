@@ -7,13 +7,19 @@
       }
 
 .product{
+    margin-left:10px;
+    margin-right:10px; 
+    margin-top:15px; 
     width: 100%;
     border-radius:5px;
     background-color:white;
 } 
 
 .product header{
+    margin-top:5px;
     margin-left:5px; 
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .product ul{
@@ -25,18 +31,20 @@
     font-weight: bold;
     padding: 12px 20px;
     display: flex;
-    justify-content: space-between;
   }
 
 
-  .product ul li small{
-    font-weight: normal;
-    font-size: 12px;
-    color: #999;
+  .product ul li a{
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size:15px;
+    margin-right: 5px;
+    color: rgb(34, 65, 133);
     font-style:italic;
   
   } 
 
   .product ul li:nth-child(2n-1) {
-    background: #f5f5f5;
+    background: #d1d1d1;
   }

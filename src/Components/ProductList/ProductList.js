@@ -8,16 +8,16 @@ const ProductList = ({products}) => (
     {products.map(product =>(
       <div className="product" key={product.id}>
           <header>
-            <strong>{product.photo}</strong>
-            
+            <strong>{product.name}</strong>
+          
           </header>
-          <small>{product.name}</small>
+          
           <ul>
             <li>
-              {product.price}<small>Album</small>
+            <a>preço:</a><h4>{product.price}</h4>
             </li>
             <li>
-              {product.store}<small>Plays</small>
+            <a>Vendido por: </a>{product.store}
             </li>
             
             

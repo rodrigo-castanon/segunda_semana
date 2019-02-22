@@ -34,7 +34,7 @@ export default class SearchBox extends Component{
             <form className="form" onSubmit={this.handleAddProduct}>
             <input 
             type="text"
-            placeholder='Pesquisa de Produtos'
+            placeholder='Pesquisa por produtos, lojas, preços'
             className="input"
             value = {this.state.productInput}
             onChange={event => this.setState({productInput: event.target.value})}            
